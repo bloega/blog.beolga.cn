@@ -1,0 +1,288 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Jav基础 | Beolga's blog</title><meta name="keywords" content="Beolga,Beolga的博客,博客,beolga博客,Blog,beolga,beolga`Blog,hexo,BEOLGA, HEXO beolga,Blog,beolga`Blog,💖,布,布罗,布罗加,InBeolga,GoBEOLGA,beolga"><meta name="author" content="Beolga,1586965771@qq.com"><meta name="copyright" content="Beolga"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="————————————————版权声明：本文为CSDN博主「Moqiqiuzi」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。原文链接：https:&#x2F;&#x2F;blog.csdn.net&#x2F;qq_43857095&#x2F;article&#x2F;details&#x2F;108306164 java从零到一1，java简介​		Java 是由 Sun Microsystems 公司于 1995">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Jav基础">
+<meta property="og:url" content="https://bloega.github.io/blog.beolga.cn/posts/76f0.html">
+<meta property="og:site_name" content="Beolga&#39;s blog">
+<meta property="og:description" content="————————————————版权声明：本文为CSDN博主「Moqiqiuzi」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。原文链接：https:&#x2F;&#x2F;blog.csdn.net&#x2F;qq_43857095&#x2F;article&#x2F;details&#x2F;108306164 java从零到一1，java简介​		Java 是由 Sun Microsystems 公司于 1995">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://up.36992.com/pic/e6/c5/51/e6c551e768092c8655292d89a4034a74.jpg">
+<meta property="article:published_time" content="2022-09-01T10:42:47.360Z">
+<meta property="article:modified_time" content="2022-09-01T12:01:05.811Z">
+<meta property="article:author" content="Beolga">
+<meta property="article:tag" content="Beolga,Beolga的博客,博客,beolga博客,Blog,beolga,beolga&#96;Blog,hexo,BEOLGA, HEXO beolga,Blog,beolga&#96;Blog,💖,布,布罗,布罗加,InBeolga,GoBEOLGA,beolga">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://up.36992.com/pic/e6/c5/51/e6c551e768092c8655292d89a4034a74.jpg"><link rel="shortcut icon" href="/blog.beolga.cn/img/favicon.png"><link rel="canonical" href="https://bloega.github.io/blog.beolga.cn/posts/76f0"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/blog.beolga.cn/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/blog.beolga.cn/',
+  algolia: undefined,
+  localSearch: {"path":"/blog.beolga.cn/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Jav基础',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-09-01 20:01:05'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/blog.beolga.cn/atom.xml" title="Beolga's blog" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/blog.beolga.cn/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/blog.beolga.cn/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/blog.beolga.cn/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog.beolga.cn/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog.beolga.cn/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog.beolga.cn/shuoshuo/"><i class="fa-fw fa fa-comments-o"></i><span> 分享</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/bangumis/index.html"><i class="fa-fw fas fa-home"></i><span> 追番</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/blog.beolga.cn/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/blog.beolga.cn/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/blog.beolga.cn/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/blog.beolga.cn/">Beolga's blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog.beolga.cn/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog.beolga.cn/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog.beolga.cn/shuoshuo/"><i class="fa-fw fa fa-comments-o"></i><span> 分享</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li><li><a class="site-page child" href="/blog.beolga.cn/bangumis/index.html"><i class="fa-fw fas fa-home"></i><span> 追番</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/blog.beolga.cn/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/blog.beolga.cn/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/blog.beolga.cn/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Jav基础</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-09-01T10:42:47.360Z" title="发表于 2022-09-01 18:42:47">2022-09-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-09-01T12:01:05.811Z" title="更新于 2022-09-01 20:01:05">2022-09-01</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Jav基础"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><p>————————————————<br>版权声明：本文为CSDN博主「Moqiqiuzi」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_43857095/article/details/108306164">https://blog.csdn.net/qq_43857095/article/details/108306164</a></p>
+<h1 id="java从零到一"><a href="#java从零到一" class="headerlink" title="java从零到一"></a>java从零到一</h1><h3 id="1，java简介"><a href="#1，java简介" class="headerlink" title="1，java简介"></a>1，java简介</h3><p>​		Java 是由 Sun Microsystems 公司于 1995 年 5 月推出的 Java 面向对象程序设计语言和 Java 平台的总称。由 James Gosling和同事们共同研发，并在 1995 年正式推出。</p>
+<h5 id="创始人"><a href="#创始人" class="headerlink" title="创始人"></a>创始人</h5><p>——————————————————詹姆斯·高斯林————————————————————</p>
+<img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.RIsPOdCtPGIXoHdIcjn0OwAAAA?pid=ImgDet&rs=1" alt="查看源图像"  />
+
+<h6 id="java版本"><a href="#java版本" class="headerlink" title="java版本"></a>java版本</h6><p>JavaSE（Java2 Platform Standard Edition，java标准版）</p>
+<p>JavaEE （Java 2 Platform,Enterprise Edition，java企业版）</p>
+<p>JavaME  （Java 2 Platform Micro Edition，java微型版）</p>
+<h6 id="JDK"><a href="#JDK" class="headerlink" title="JDK"></a>JDK</h6><p>sun公司于1996年推出了第一款java版本jdk 1.0（Java Development Kit 1.0，2009年sun公司被Oracle（甲骨文收购）随之被推行下去</p>
+<h3 id="2-配置Java环境（Windows）"><a href="#2-配置Java环境（Windows）" class="headerlink" title="2,配置Java环境（Windows）"></a>2,配置Java环境（Windows）</h3><h4 id="下载Java"><a href="#下载Java" class="headerlink" title="下载Java"></a>下载Java</h4><p>我们可以到<a target="_blank" rel="noopener" href="https://www.oracle.com/java/technologies/downloads/">Java Downloads | Oracle</a>下载</p>
+<p>如图所示</p>
+<p><img src="https://s1.ax1x.com/2022/09/01/v5Hf5n.png" alt="image-20220815222545055"></p>
+<p>下拉到这里下载对应的版本</p>
+<p><img src="https://s1.ax1x.com/2022/09/01/v5Hrgf.png" alt="image-20220815222702813"></p>
+<h4 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h4><p>下载好后解压到文件目录</p>
+<p>解压完成后搜索“环境变量”</p>
+<img src="https://s1.ax1x.com/2022/09/01/v5HgbQ.png" alt="image-20220815223036032" style="zoom:50%;" />
+
+<p>打开后点击环境变量</p>
+<img src="https://s1.ax1x.com/2022/09/01/v5HBCt.png" alt="image-20220815223132776" style="zoom:50%;" />
+
+<p>点击新建</p>
+<p>变量名如图所示</p>
+<p>变量值为你刚才解压好的文件目录</p>
+<p><img src="https://s1.ax1x.com/2022/09/01/v5Hw4I.png" alt="image-20220815223722040"></p>
+<p>编辑完后点击确定</p>
+<p>然后找到path</p>
+<p><img src="https://s1.ax1x.com/2022/09/01/v5HD8P.png" alt="image-20220815223316344"></p>
+<p>点击后点击新建</p>
+<img src="https://s1.ax1x.com/2022/09/01/v5Hsv8.png" alt="image-20220815223400835" style="zoom: 50%;" />
+
+<p>这里呢输入%JAVA_HOME%\bin完成后确定</p>
+<h4 id="检测是否配置完成"><a href="#检测是否配置完成" class="headerlink" title="检测是否配置完成"></a>检测是否配置完成</h4><p>win（徽标键）+ R输入cmd</p>
+<img src="https://s1.ax1x.com/2022/09/01/v5H6KS.png" alt="image-20220815224047721" style="zoom:50%;" />
+
+<p>输入java -version</p>
+<p>输出如下</p>
+<img src="https://s1.ax1x.com/2022/09/01/v5HcDg.png" alt="image-20220815224249364" style="zoom: 67%;" />
+
+<h3 id="3-我的第一个Java程序"><a href="#3-我的第一个Java程序" class="headerlink" title="3.我的第一个Java程序"></a>3.我的第一个Java程序</h3><p>在桌面上新建一个文本文档名称为HelloWorld</p>
+<p>打开后输入</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;HELLO!!World!!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><strong>切记</strong>！程序内符号一律为英文符号如果含有中文符号将会报错</p>
+<p>后缀名改为.java</p>
+<p>完成后打开cmd</p>
+<p>转到桌面</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> Desktop</span><br></pre></td></tr></table></figure>
+
+<p>先编译</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac HelloWorld.java</span><br></pre></td></tr></table></figure>
+
+<p>然后运行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java HelloWorld.java</span><br></pre></td></tr></table></figure>
+
+<p>输出</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HELLO!!World!!</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-java编辑器的选择"><a href="#4-java编辑器的选择" class="headerlink" title="4.java编辑器的选择"></a>4.java编辑器的选择</h3><p>在编写java程序时通常我们面对的只是白色的窗口，即没有代码高亮，也没有代码补全。可谓是非常难受</p>
+<p>所以这边给大家推荐一个javaIDE（集成开发环境）</p>
+<p>在推荐之前先要弄清楚IDE（集成开发环境）与 文本编辑器的区别</p>
+<h5 id="1-IDE"><a href="#1-IDE" class="headerlink" title="1.IDE"></a>1.IDE</h5><p>IDE（集成开发环境） 顾名思义，就是集成在一起的工具，涵盖了程序得编辑，运行，构建，Debug等</p>
+<p>通常仅限于一种编程语言，包括编辑器，编译器，IDE几乎涵盖了文本编辑器的所有功能，功能也相对完</p>
+<p>全</p>
+<h5 id="2-文本编辑器"><a href="#2-文本编辑器" class="headerlink" title="2.文本编辑器"></a>2.文本编辑器</h5><p>通常情况下，我们与IDE的相处时间较长，但有时我们只需要用来编辑代码的工具——代码编辑器。代码编辑器与典型的 IDE 不同，你可以把它用于自己喜欢的任何一种编码语言或框架，通常功能单一</p>
+<h5 id="IDE与文本编辑器推荐"><a href="#IDE与文本编辑器推荐" class="headerlink" title="IDE与文本编辑器推荐"></a>IDE与文本编辑器推荐</h5><h6 id="1-IDE-1"><a href="#1-IDE-1" class="headerlink" title="1.IDE"></a>1.IDE</h6><p>1.Jetbrains全家桶</p>
+<p>官网：<a target="_blank" rel="noopener" href="https://www.jetbrains.com/">https://www.jetbrains.com/</a></p>
+ <img src="https://s1.ax1x.com/2022/09/01/v5HI2V.png" alt="屏幕截图 2022-08-16 091941" style="zoom:150%;" />
+
+<p>打开后我们可以看到有很多的IDE供我们选择（如Webstom（Web），IDEA（Java），Clion（C&amp;C++）等）</p>
+<h6 id="2-宇宙第一IDE——Visual-Studio"><a href="#2-宇宙第一IDE——Visual-Studio" class="headerlink" title="2.宇宙第一IDE——Visual Studio"></a>2.宇宙第一IDE——Visual Studio</h6><p>官网：<a target="_blank" rel="noopener" href="https://visualstudio.microsoft.com/zh-hans/">Visual Studio: 面向软件开发人员和 Teams 的 IDE 和代码编辑器 (microsoft.com)</a></p>
+<p><img src="https://s1.ax1x.com/2022/09/01/v5HREj.png" alt="屏幕截图 2022-08-16 094403"></p>
+<p>为什么说他是宇宙第一IDE呢，因为他对英语不太熟练的猿们非常友好，它的不仅界面是中文，而且错误提示竟然是中文的这对英语差的猿们可谓是福音了</p>
+<p>优点说完了那缺点也是很鸡肋最大的缺点就是没有自动保存，作者可是被这个坑惨了&#96;o(╥﹏╥)o，还有呢就是此IDE对磁盘占用极大，对性能较差的电脑十分不友好</p>
+<h6 id="3-SublimeText"><a href="#3-SublimeText" class="headerlink" title="3.SublimeText"></a>3.SublimeText</h6><p>官网：<a target="_blank" rel="noopener" href="https://www.sublimetext.com/">Sublime Text - Text Editing, Done Right</a></p>
+<p><img src="https://s1.ax1x.com/2022/09/01/v5HWUs.png" alt="image-20220816095336030"></p>
+<p>相对于Viual Studio，此IDE性对轻量而且支持的语言超级多，几乎囊括了市面上所有的编程语言缺点就是编译十分麻烦需要依次选择Tools—&gt;Build—&gt;New Build System然后指定编译器</p>
+<hr>
+<p>JavaIDE的选择————Jetbrains Intellij IDEA</p>
+<h3 id="5-创建一个Java项目"><a href="#5-创建一个Java项目" class="headerlink" title="5.创建一个Java项目"></a>5.创建一个Java项目</h3><p>打开IDEA</p>
+<p><img src="/blog.beolga.cn/" alt="image-20220816102905249"></p>
+<p>点击New Project</p>
+<img src="https://s1.ax1x.com/2022/09/01/v5H4Cq.png" alt="image-20220816111731135" style="zoom: 80%;" />
+
+<p>注意这里选择的是Empty Project</p>
+<p>点击Finsh</p>
+<p>创建完后依次点击File——&gt;New——&gt;Moubles</p>
+<img src="https://s1.ax1x.com/2022/09/01/v5HovT.png" alt="image-20220816112043616" style="zoom:67%;" />
+
+<p>然后点击Java</p>
+<img src="https://s1.ax1x.com/2022/09/01/v5H580.png" alt="image-20220816112154057" style="zoom:67%;" />
+
+<p>点击Next</p>
+<p><img src="https://s1.ax1x.com/2022/09/01/v5Hbb4.png" alt="image-20220816112232757"></p>
+<p>随后点击Finsh创建完成</p>
+<p>然后右键包下得src文件夹，新建一个java类</p>
+<p><img src="/blog.beolga.cn/" alt="image-20220816112337939"></p>
+<p>第一次可能需要索引，请耐心等待</p>
+<p>索引完成后创建项目基本完成</p>
+<h3 id="6-java文件结构"><a href="#6-java文件结构" class="headerlink" title="6.java文件结构"></a>6.java文件结构</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> class 类名 &#123;</span><br><span class="line">    main方法(主函数)</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">      	  执行语句</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://bloega.github.io/blog.beolga.cn">Beolga</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://bloega.github.io/blog.beolga.cn/posts/76f0.html">https://bloega.github.io/blog.beolga.cn/posts/76f0.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://bloega.github.io/blog.beolga.cn" target="_blank">Beolga's blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="http://up.36992.com/pic/e6/c5/51/e6c551e768092c8655292d89a4034a74.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/blog.beolga.cn/posts/3eeb.html"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/blog.beolga.cn/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/blog.beolga.cn/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Beolga</div><div class="author-info__description">千里之行，始于足下.</div></div><div class="card-info-data site-data is-center"><a href="/blog.beolga.cn/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/blog.beolga.cn/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/blog.beolga.cn/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/bloega"><i class="fab fa-github"></i><span>关于我</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#java%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80"><span class="toc-number">1.</span> <span class="toc-text">java从零到一</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%EF%BC%8Cjava%E7%AE%80%E4%BB%8B"><span class="toc-number">1.0.1.</span> <span class="toc-text">1，java简介</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%88%9B%E5%A7%8B%E4%BA%BA"><span class="toc-number">1.0.1.0.1.</span> <span class="toc-text">创始人</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#java%E7%89%88%E6%9C%AC"><span class="toc-number">1.0.1.0.1.1.</span> <span class="toc-text">java版本</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#JDK"><span class="toc-number">1.0.1.0.1.2.</span> <span class="toc-text">JDK</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E9%85%8D%E7%BD%AEJava%E7%8E%AF%E5%A2%83%EF%BC%88Windows%EF%BC%89"><span class="toc-number">1.0.2.</span> <span class="toc-text">2,配置Java环境（Windows）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BDJava"><span class="toc-number">1.0.2.1.</span> <span class="toc-text">下载Java</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="toc-number">1.0.2.2.</span> <span class="toc-text">配置环境变量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A3%80%E6%B5%8B%E6%98%AF%E5%90%A6%E9%85%8D%E7%BD%AE%E5%AE%8C%E6%88%90"><span class="toc-number">1.0.2.3.</span> <span class="toc-text">检测是否配置完成</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.0.3.</span> <span class="toc-text">3.我的第一个Java程序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-java%E7%BC%96%E8%BE%91%E5%99%A8%E7%9A%84%E9%80%89%E6%8B%A9"><span class="toc-number">1.0.4.</span> <span class="toc-text">4.java编辑器的选择</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-IDE"><span class="toc-number">1.0.4.0.1.</span> <span class="toc-text">1.IDE</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8"><span class="toc-number">1.0.4.0.2.</span> <span class="toc-text">2.文本编辑器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#IDE%E4%B8%8E%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E6%8E%A8%E8%8D%90"><span class="toc-number">1.0.4.0.3.</span> <span class="toc-text">IDE与文本编辑器推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#1-IDE-1"><span class="toc-number">1.0.4.0.3.1.</span> <span class="toc-text">1.IDE</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#2-%E5%AE%87%E5%AE%99%E7%AC%AC%E4%B8%80IDE%E2%80%94%E2%80%94Visual-Studio"><span class="toc-number">1.0.4.0.3.2.</span> <span class="toc-text">2.宇宙第一IDE——Visual Studio</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#3-SublimeText"><span class="toc-number">1.0.4.0.3.3.</span> <span class="toc-text">3.SublimeText</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAJava%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.0.5.</span> <span class="toc-text">5.创建一个Java项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-java%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84"><span class="toc-number">1.0.6.</span> <span class="toc-text">6.java文件结构</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/blog.beolga.cn/posts/76f0.html" title="Jav基础"><img src="http://up.36992.com/pic/e6/c5/51/e6c551e768092c8655292d89a4034a74.jpg" onerror="this.onerror=null;this.src='/blog.beolga.cn/img/404.jpg'" alt="Jav基础"/></a><div class="content"><a class="title" href="/blog.beolga.cn/posts/76f0.html" title="Jav基础">Jav基础</a><time datetime="2022-09-01T10:42:47.360Z" title="发表于 2022-09-01 18:42:47">2022-09-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog.beolga.cn/posts/3eeb.html" title="Hello World"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/blog.beolga.cn/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/blog.beolga.cn/posts/3eeb.html" title="Hello World">Hello World</a><time datetime="2022-09-01T09:01:05.608Z" title="发表于 2022-09-01 17:01:05">2022-09-01</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Beolga</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/blog.beolga.cn/js/utils.js"></script><script src="/blog.beolga.cn/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/blog.beolga.cn/js/search/local-search.js"></script><div class="js-pjax"></div><div class="aplayer no-destroy" data-id="1708664797" data-server="tencent" data-type="playlist"   data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true" ></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_clock_anzhiyu_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock_anzhiyu')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var qweather_key = 'b16a1fa0e63c46a4b8f28abfb06ae3fe';
+  var gaud_map_key = 'e2b04289e870b005374ee030148d64fd&s=rsv3';
+  var baidu_ak_key = 'undefined';
+  var flag = 0;
+  var clock_rectangle = '112.982279,28.19409';
+  var clock_default_rectangle_enable = 'false';
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
+  function gitcalendar_injector_config(){
+      var parent_div_git = document.getElementById('recent-posts');
+      var item_html = '<div class="recent-post-item" style="width:100%;height:auto;padding:10px;"><style>#git_container{min-height: 280px}@media screen and (max-width:650px) {#git_container{min-height: 0px}}</style><div id="git_loading" style="width:10%;height:100%;margin:0 auto;display: block;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animatetransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animatetransform></path></svg><style>#git_container{display: none;}</style></div><div id="git_container"></div></div>';
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+      console.log('已挂载gitcalendar')
+      }
+
+    if( document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
+        gitcalendar_injector_config()
+        GitCalendarInit("https://gitcalendar.akilar.top/api?Akilarlxh",['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06'],'Akilarlxh')
+    }
+  </script><!-- hexo injector body_end end --><script src="/blog.beolga.cn/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-koharu"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body></html>
