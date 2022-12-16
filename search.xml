@@ -101,22 +101,22 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于笔者</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="Who-are-me"><a href="#Who-are-me" class="headerlink" title="Who are me"></a>Who are me</h1>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>关于笔者</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="Who-are-me"><a href="#Who-are-me" class="headerlink" title="Who are me"></a>Who are me</h1>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
