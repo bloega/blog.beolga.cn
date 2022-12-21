@@ -123,9 +123,9 @@
     
     
     <entry>
-      <title>resources</title>
-      <link href="/resources/index.html"/>
-      <url>/resources/index.html</url>
+      <title>公告</title>
+      <link href="/notice/index.html"/>
+      <url>/notice/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -134,9 +134,9 @@
     
     
     <entry>
-      <title>公告</title>
-      <link href="/notice/index.html"/>
-      <url>/notice/index.html</url>
+      <title>resources</title>
+      <link href="/resources/index.html"/>
+      <url>/resources/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
