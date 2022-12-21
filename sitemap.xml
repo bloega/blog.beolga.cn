@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://beolga.netlify.app/playlist/index.html</loc>
+    <loc>https://beolga.zhikun.ml/playlist/index.html</loc>
     
     <lastmod>2022-12-21</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/posts/41f.html</loc>
+    <loc>https://beolga.zhikun.ml/posts/41f.html</loc>
     
     <lastmod>2022-12-21</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/notice/index.html</loc>
+    <loc>https://beolga.zhikun.ml/notice/index.html</loc>
     
     <lastmod>2022-12-18</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/posts/c.html</loc>
+    <loc>https://beolga.zhikun.ml/posts/c.html</loc>
     
     <lastmod>2022-12-18</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/posts/8eab.html</loc>
+    <loc>https://beolga.zhikun.ml/posts/8eab.html</loc>
     
     <lastmod>2022-12-15</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/posts/1023.html</loc>
+    <loc>https://beolga.zhikun.ml/posts/1023.html</loc>
     
     <lastmod>2022-10-07</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/about/index.html</loc>
+    <loc>https://beolga.zhikun.ml/about/index.html</loc>
     
     <lastmod>2022-10-01</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/categories/index.html</loc>
+    <loc>https://beolga.zhikun.ml/categories/index.html</loc>
     
     <lastmod>2022-10-01</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/resources/index.html</loc>
+    <loc>https://beolga.zhikun.ml/resources/index.html</loc>
     
     <lastmod>2022-10-01</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/tags/index.html</loc>
+    <loc>https://beolga.zhikun.ml/tags/index.html</loc>
     
     <lastmod>2022-10-01</lastmod>
     
@@ -93,7 +93,7 @@
   
 
   <url>
-    <loc>https://beolga.netlify.app/</loc>
+    <loc>https://beolga.zhikun.ml/</loc>
     <lastmod>2022-12-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -101,21 +101,21 @@
 
   
   <url>
-    <loc>https://beolga.netlify.app/tags/hexo/</loc>
+    <loc>https://beolga.zhikun.ml/tags/hexo/</loc>
     <lastmod>2022-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/tags/%E7%BE%8E%E5%8C%96/</loc>
+    <loc>https://beolga.zhikun.ml/tags/%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2022-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://beolga.zhikun.ml/tags/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2022-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -124,21 +124,21 @@
 
   
   <url>
-    <loc>https://beolga.netlify.app/categories/hexo/</loc>
+    <loc>https://beolga.zhikun.ml/categories/hexo/</loc>
     <lastmod>2022-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://beolga.zhikun.ml/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beolga.netlify.app/categories/Java/</loc>
+    <loc>https://beolga.zhikun.ml/categories/Java/</loc>
     <lastmod>2022-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
