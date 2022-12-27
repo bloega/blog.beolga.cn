@@ -94,7 +94,7 @@
 
   <url>
     <loc>https://beolga.zhikun.ml/</loc>
-    <lastmod>2022-12-26</lastmod>
+    <lastmod>2022-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,21 +102,21 @@
   
   <url>
     <loc>https://beolga.zhikun.ml/tags/hexo/</loc>
-    <lastmod>2022-12-26</lastmod>
+    <lastmod>2022-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beolga.zhikun.ml/tags/%E7%BE%8E%E5%8C%96/</loc>
-    <lastmod>2022-12-26</lastmod>
+    <lastmod>2022-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beolga.zhikun.ml/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2022-12-26</lastmod>
+    <lastmod>2022-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -125,21 +125,21 @@
   
   <url>
     <loc>https://beolga.zhikun.ml/categories/hexo/</loc>
-    <lastmod>2022-12-26</lastmod>
+    <lastmod>2022-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beolga.zhikun.ml/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-12-26</lastmod>
+    <lastmod>2022-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beolga.zhikun.ml/categories/Java/</loc>
-    <lastmod>2022-12-26</lastmod>
+    <lastmod>2022-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
