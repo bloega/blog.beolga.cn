@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://beolga.zhikun.ml/posts/c.html</loc>
+    <loc>https://beolga.zhikun.ml/posts/a8b9.html</loc>
     
-    <lastmod>2022-12-30</lastmod>
+    <lastmod>2023-01-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,16 @@
   <url>
     <loc>https://beolga.zhikun.ml/posts/41f.html</loc>
     
-    <lastmod>2022-12-29</lastmod>
+    <lastmod>2023-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://beolga.zhikun.ml/posts/c.html</loc>
+    
+    <lastmod>2022-12-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -41,15 +50,6 @@
     <loc>https://beolga.zhikun.ml/posts/8eab.html</loc>
     
     <lastmod>2022-12-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beolga.zhikun.ml/posts/1023.html</loc>
-    
-    <lastmod>2022-10-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
