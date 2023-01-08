@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://beolga.zhikun.ml/posts/8eab.html</loc>
+    
+    <lastmod>2023-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://beolga.zhikun.ml/posts/a8b9.html</loc>
     
-    <lastmod>2023-01-05</lastmod>
+    <lastmod>2023-01-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,16 +22,7 @@
   <url>
     <loc>https://beolga.zhikun.ml/posts/c.html</loc>
     
-    <lastmod>2023-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beolga.zhikun.ml/posts/8eab.html</loc>
-    
-    <lastmod>2023-01-01</lastmod>
+    <lastmod>2023-01-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +31,7 @@
   <url>
     <loc>https://beolga.zhikun.ml/posts/41f.html</loc>
     
-    <lastmod>2023-01-01</lastmod>
+    <lastmod>2023-01-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +94,7 @@
 
   <url>
     <loc>https://beolga.zhikun.ml/</loc>
-    <lastmod>2023-01-07</lastmod>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,21 +102,49 @@
   
   <url>
     <loc>https://beolga.zhikun.ml/tags/hexo/</loc>
-    <lastmod>2023-01-07</lastmod>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beolga.zhikun.ml/tags/butterfly/</loc>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beolga.zhikun.ml/tags/%E7%BE%8E%E5%8C%96/</loc>
-    <lastmod>2023-01-07</lastmod>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beolga.zhikun.ml/tags/powershell/</loc>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beolga.zhikun.ml/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2023-01-07</lastmod>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beolga.zhikun.ml/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beolga.zhikun.ml/tags/JAVA/</loc>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -124,29 +152,43 @@
 
   
   <url>
+    <loc>https://beolga.zhikun.ml/categories/hexo/</loc>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beolga.zhikun.ml/categories/Windows/</loc>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beolga.zhikun.ml/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://beolga.zhikun.ml/categories/Butterfly/</loc>
-    <lastmod>2023-01-07</lastmod>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beolga.zhikun.ml/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-01-07</lastmod>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beolga.zhikun.ml/categories/Java/</loc>
-    <lastmod>2023-01-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://beolga.zhikun.ml/categories/hexo/</loc>
-    <lastmod>2023-01-07</lastmod>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
