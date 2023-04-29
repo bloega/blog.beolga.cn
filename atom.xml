@@ -3,11 +3,11 @@
   <title>Beolga&#39;s Blog🥝</title>
   <icon>https://www.gravatar.com/avatar/b5320bc1f934c2e0901e72983c3fb225</icon>
   <subtitle>千里之行,始于足下</subtitle>
-  <link href="https://beolga.zhikun.ml/atom.xml" rel="self"/>
+  <link href="https://beolga.netlify.app/atom.xml" rel="self"/>
   
-  <link href="https://beolga.zhikun.ml/"/>
+  <link href="https://beolga.netlify.app/"/>
   <updated>2023-01-08T00:45:16.722Z</updated>
-  <id>https://beolga.zhikun.ml/</id>
+  <id>https://beolga.netlify.app/</id>
   
   <author>
     <name>Beolga</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>为你的网站添加steam游戏库</title>
-    <link href="https://beolga.zhikun.ml/posts/a8b9.html"/>
-    <id>https://beolga.zhikun.ml/posts/a8b9.html</id>
+    <link href="https://beolga.netlify.app/posts/a8b9.html"/>
+    <id>https://beolga.netlify.app/posts/a8b9.html</id>
     <published>2023-01-01T05:41:44.688Z</published>
     <updated>2023-01-08T00:45:16.722Z</updated>
     
@@ -35,21 +35,21 @@
     
     
     
-    <category term="hexo" scheme="https://beolga.zhikun.ml/categories/hexo/"/>
+    <category term="hexo" scheme="https://beolga.netlify.app/categories/hexo/"/>
     
-    <category term="Butterfly" scheme="https://beolga.zhikun.ml/categories/Butterfly/"/>
+    <category term="Butterfly" scheme="https://beolga.netlify.app/categories/Butterfly/"/>
     
     
-    <category term="hexo" scheme="https://beolga.zhikun.ml/tags/hexo/"/>
+    <category term="hexo" scheme="https://beolga.netlify.app/tags/hexo/"/>
     
-    <category term="butterfly" scheme="https://beolga.zhikun.ml/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://beolga.netlify.app/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>Hexo优化</title>
-    <link href="https://beolga.zhikun.ml/posts/41f.html"/>
-    <id>https://beolga.zhikun.ml/posts/41f.html</id>
+    <link href="https://beolga.netlify.app/posts/41f.html"/>
+    <id>https://beolga.netlify.app/posts/41f.html</id>
     <published>2022-12-15T04:50:00.000Z</published>
     <updated>2023-01-08T00:43:04.296Z</updated>
     
@@ -63,21 +63,21 @@
     
     
     
-    <category term="hexo" scheme="https://beolga.zhikun.ml/categories/hexo/"/>
+    <category term="hexo" scheme="https://beolga.netlify.app/categories/hexo/"/>
     
-    <category term="Butterfly" scheme="https://beolga.zhikun.ml/categories/Butterfly/"/>
+    <category term="Butterfly" scheme="https://beolga.netlify.app/categories/Butterfly/"/>
     
     
-    <category term="hexo" scheme="https://beolga.zhikun.ml/tags/hexo/"/>
+    <category term="hexo" scheme="https://beolga.netlify.app/tags/hexo/"/>
     
-    <category term="butterfly" scheme="https://beolga.zhikun.ml/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://beolga.netlify.app/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>Windows_Terminal美化</title>
-    <link href="https://beolga.zhikun.ml/posts/c.html"/>
-    <id>https://beolga.zhikun.ml/posts/c.html</id>
+    <link href="https://beolga.netlify.app/posts/c.html"/>
+    <id>https://beolga.netlify.app/posts/c.html</id>
     <published>2022-10-07T06:05:40.000Z</published>
     <updated>2023-01-08T00:43:55.338Z</updated>
     
@@ -92,21 +92,21 @@
     
     
     
-    <category term="Windows" scheme="https://beolga.zhikun.ml/categories/Windows/"/>
+    <category term="Windows" scheme="https://beolga.netlify.app/categories/Windows/"/>
     
-    <category term="教程" scheme="https://beolga.zhikun.ml/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://beolga.netlify.app/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="美化" scheme="https://beolga.zhikun.ml/tags/%E7%BE%8E%E5%8C%96/"/>
+    <category term="美化" scheme="https://beolga.netlify.app/tags/%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="powershell" scheme="https://beolga.zhikun.ml/tags/powershell/"/>
+    <category term="powershell" scheme="https://beolga.netlify.app/tags/powershell/"/>
     
   </entry>
   
   <entry>
     <title>java</title>
-    <link href="https://beolga.zhikun.ml/posts/8eab.html"/>
-    <id>https://beolga.zhikun.ml/posts/8eab.html</id>
+    <link href="https://beolga.netlify.app/posts/8eab.html"/>
+    <id>https://beolga.netlify.app/posts/8eab.html</id>
     <published>2022-09-12T12:03:32.000Z</published>
     <updated>2023-01-08T00:55:57.520Z</updated>
     
@@ -120,18 +120,18 @@
     
     
     
-    <category term="教程" scheme="https://beolga.zhikun.ml/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="编程" scheme="https://beolga.netlify.app/categories/%E7%BC%96%E7%A8%8B/"/>
     
-    <category term="编程" scheme="https://beolga.zhikun.ml/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="教程" scheme="https://beolga.netlify.app/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Java" scheme="https://beolga.zhikun.ml/categories/Java/"/>
+    <category term="Java" scheme="https://beolga.netlify.app/categories/Java/"/>
     
     
-    <category term="编程" scheme="https://beolga.zhikun.ml/tags/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://beolga.netlify.app/tags/%E7%BC%96%E7%A8%8B/"/>
     
-    <category term="教程" scheme="https://beolga.zhikun.ml/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://beolga.netlify.app/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="JAVA" scheme="https://beolga.zhikun.ml/tags/JAVA/"/>
+    <category term="JAVA" scheme="https://beolga.netlify.app/tags/JAVA/"/>
     
   </entry>
   
