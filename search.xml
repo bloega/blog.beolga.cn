@@ -100,9 +100,9 @@
       
       <categories>
           
-          <category> 编程 </category>
-          
           <category> 教程 </category>
+          
+          <category> 编程 </category>
           
           <category> Java </category>
           
@@ -160,17 +160,6 @@
     
     
     <entry>
-      <title>playlist</title>
-      <link href="/playlist/index.html"/>
-      <url>/playlist/index.html</url>
-      
-        <content type="html"><![CDATA[<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css"></p><p><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script></p><p><script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script></p><font color=#0c74d6 size=6 face="黑体">愿未来总有星火.</font>    <div id="aplayer-qAgrjZcr" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7835253353" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>resources</title>
       <link href="/resources/index.html"/>
       <url>/resources/index.html</url>
@@ -187,6 +176,17 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>playlist</title>
+      <link href="/playlist/index.html"/>
+      <url>/playlist/index.html</url>
+      
+        <content type="html"><![CDATA[<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css"></p><p><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script></p><p><script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script></p><font color=#0c74d6 size=6 face="黑体">愿未来总有星火.</font>    <div id="aplayer-fdgWtyom" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7835253353" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
