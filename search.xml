@@ -138,9 +138,9 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>公告</title>
+      <link href="/notice/index.html"/>
+      <url>/notice/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -149,9 +149,9 @@
     
     
     <entry>
-      <title>公告</title>
-      <link href="/notice/index.html"/>
-      <url>/notice/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -164,7 +164,7 @@
       <link href="/playlist/index.html"/>
       <url>/playlist/index.html</url>
       
-        <content type="html"><![CDATA[<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css"></p><p><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script></p><p><script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script></p><font color=#0c74d6 size=6 face="黑体">愿未来总有星火.</font>    <div id="aplayer-WIJMukBs" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7835253353" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css"></p><p><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script></p><p><script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script></p><font color=#0c74d6 size=6 face="黑体">愿未来总有星火.</font>    <div id="aplayer-pUBtwVvG" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8302101504" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
